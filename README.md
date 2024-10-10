@@ -1,5 +1,5 @@
 # test-dev-v2-SUBSCONE_CreateInvoiceRecipients
-請求書通知リストファイル作成(月次起動)
+請求書通知: 通知先リストを作成(月次起動)
 
 ## 概要
 このLambda関数は、請求書通知機能の月次起動処理を行います。
