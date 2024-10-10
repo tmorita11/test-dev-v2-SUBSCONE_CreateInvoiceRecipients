@@ -14,6 +14,7 @@
         {
           "retail_type_cd": "R0601DJICPA001",
           "bill_month": "202412",
+          "sendgrid_template_id": "d-d05f126e78d44992930f6a2cd17cbb52"
         }
         ```
    - 「実行」ボタンを押下してLambda関数を実行します。
