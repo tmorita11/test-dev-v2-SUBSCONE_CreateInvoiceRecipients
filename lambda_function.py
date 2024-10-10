@@ -26,7 +26,7 @@ INVOICE_NOTIFY_QUERY = """
 
 def lambda_handler(event, context):
     # EventBridgeの定数から取得
-    sendgrid_template_id = event.get("sendgrid_template_id") or "d-d05f126e78d44992930f6a2cd17cbb52"
+    sendgrid_template_id = event.get("sendgrid_template_id")
     retail_type_cd = event.get("retail_type_cd")
     bill_month = event.get("bill_month")
 
